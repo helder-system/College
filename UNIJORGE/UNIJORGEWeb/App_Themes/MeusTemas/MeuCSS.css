@@ -1,0 +1,16 @@
+﻿body {
+    font-family: Dotum;
+    font-size: large;
+    text-decoration: underline overline;
+    background-color: #808080;
+    /*border-style: solid;*/
+}
+
+#cabecalho {
+    font-family: 'Times New Roman';
+    font-size: small;
+    position: relative;
+    z-index: auto;
+    width: 14px;
+    height: auto;
+}

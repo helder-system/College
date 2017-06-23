@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PaginaMaster.master.cs" Inherits="UNIJORGEWeb.PaginaMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title> Título da página </title>
+    
+    <link href="App_Themes/MeusTemas/MeuCSS.css" rel="stylesheet" type="text/css" />
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="cabecalho"> Meu cabeçalho </div>
+        <div id="menu"> Meu menu </div>
+
+        <div id="colunaEsquerda"> Coluna da Esquerda 
+            <asp:ContentPlaceHolder ID="conteudoEsquerda" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div id="colunaCentro"> Coluna do Centro 
+            <asp:ContentPlaceHolder ID="conteudoCentro" runat="server">
+        
+            </asp:ContentPlaceHolder>
+
+        </div>
+
+        <div id="rodape"> Rodapé </div>
+
+    </div>
+    </form>
+</body>
+</html>
